@@ -12,7 +12,7 @@
     
 }
 .bg-light{
-    background:#FDFEFF;
+    background:#F5F8FA;
     
 }
 .fixed-top{
@@ -302,18 +302,15 @@
 
 
 #gov .col-md-2{
-  margin:1%; border: 1px solid #dddcdc;border-radius: 5px;background-color: #e7e2e2;
+  padding-top: 1%;
+  margin:1%; border: 1px solid #d6d3d3f5;border-radius: 15px;background-color: #fff;
 }
 
 
 #gov .col-md-2:hover {
-  position:relative;
-  top:-25px;
-  
-  width:500px;
-  height: auto;
-  display:block;
-  z-index:999;
+  border: 3px rgb(4, 151, 250);
+  box-shadow: 0 3px 5px 0 rgba(132, 170, 240, 0.966);
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 
