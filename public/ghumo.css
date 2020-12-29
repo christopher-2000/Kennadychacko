@@ -314,12 +314,12 @@
 }
 
 
-/* @media (max-width:754px) {
-  .gmap{
-  margin-left: 1%;
-  margin-top: 1%;
-  height: 200px;
-  width: 80%;
+@media (max-width:754px) {
+  #gov .col-md-2{
+  margin-left: 15%;
+  width:70%;
+  height: 70%;
+  
 }
 } */
 
