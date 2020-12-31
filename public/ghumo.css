@@ -1,3 +1,5 @@
+
+
 .carousel-inner{
     position:relative;
     top: 0;
@@ -18,8 +20,20 @@
 .fixed-top{
   background:#FDFEFF ;
 }
-.nav{
-  background: #FDFEFF;
+.navbar{
+  background: #0064A0;
+  color: white;
+
+  
+}
+.nav-linkcolor{
+  color: #F4B01D;
+}
+
+.title{
+  font-size: large;
+  font-weight: 600;
+  color: white;
 }
 .btn{
     margin-left: 20px;
@@ -27,7 +41,7 @@
 
 }
 .navbar-light .navbar-brand {
-    color:rgb(5, 0, 0);
+    color:#F4B01D;
     font-size: 15px;
     text-transform: uppercase;
     font-weight: bold;
@@ -42,8 +56,8 @@
   } 
   @media (max-width: 768px) {
     nav.navbar,.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link  {
-      background: #fff;
-      max-width: 500px;
+      background: #0064A0;
+      
     }
     .icon-bar {
       position: fixed;
@@ -130,13 +144,13 @@
 
   .navbar-default{
     transition:500ms ease;
-    background:#FDFEFF;
-    color: #fff;
-    border-bottom: 1px solid #EBEBEB;
+    background: #0064A0;
+    color: #F4B01D;
+    border-bottom: 3px solid #F4B01D;
   }
   .navbar-default.scrolled{
     background:#FDFEFF;
-    border-bottom: 1px solid #dddcdc;
+    border-bottom: 3px solid #F4B01D;
   }
   /* .nav-link{
 
@@ -162,12 +176,17 @@
    .navbar-toggler{
      margin-left: 80%;
      margin-top: 0px;
+     padding-top: 13px;
+     padding-bottom: 25px;
+     height: 30px;
+     border: 1px solid #F4B01D ;
 
    }
    
    .navbar-toggler span {
       display: block;
-      background-color: #444;
+      background-color: #F4B01D;
+      
       height: 3px;
       width: 25px;
       margin-top: 4px;
@@ -179,6 +198,7 @@
       position: relative;
       left: 0;
       opacity: 1;
+    
     
    }
    
@@ -193,7 +213,7 @@
    .navbar-toggler:not(.collapsed) span:nth-child(1) {
        position: absolute;
       margin-left:80%;
-       margin-top: 1%;
+       margin-top: 3.5%;
        -webkit-transform: rotate(135deg);
        -moz-transform: rotate(135deg);
        -o-transform: rotate(135deg);
@@ -210,7 +230,7 @@
    .navbar-toggler:not(.collapsed) span:nth-child(3) {
        position: absolute;
        margin-left:80%;
-       margin-top: 0.01%;
+       margin-top: 0%;
        -webkit-transform: rotate(-135deg);
        -moz-transform: rotate(-135deg);
        -o-transform: rotate(-135deg);
